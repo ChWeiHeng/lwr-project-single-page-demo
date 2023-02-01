@@ -1,10 +1,16 @@
 {
-    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" },{ "npm": "lightning-base-components" }] },
+    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" },{"npm": "lwc-recipes-oss-ui-components"}] },
+    "bundleConfig": { "exclude": ["lwc"] },
     "assets": [
         {
             "alias": "assetsDir",
-            "dir": "$rootDir/node_modules/@salesforce-ux/design-system/assets",
+            "dir": "$rootDir/src/assets",
             "urlPath": "/assets"
+        },
+        {
+            "alias": "assetsDir",
+            "dir": "$rootDir/node_modules/@salesforce-ux/design-system/assets",
+            "urlPath": "/assets-node"
         }
     ],
     "routes": [
@@ -12,10 +18,7 @@
             "id": "example",
             "path": "/",
             "rootComponent": "example/app",
-            "layoutTemplate": "$layoutsDir/main.html",
-            "bootstrap": {
-                "syntheticShadow": true
-            }
+            "layoutTemplate": "$layoutsDir/index.html"
         }
     ]
 }
