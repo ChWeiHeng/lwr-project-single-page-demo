@@ -8,3 +8,10 @@ main {
 h1 {
     color: #1798c1;
 }
+
+.navigation-line-css {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #52b9fb;
+}
