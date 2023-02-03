@@ -74,7 +74,7 @@
   [
     "example/app#app.html@0.0.1",
     {
-      "ownHash": "f8a661a888c253ba7869ebb45900ccca",
+      "ownHash": "0918a9efc07422598e0c4a74493caf28",
       "module": "./cache/example_app_app_html_0_0_1.js",
       "moduleMeta": "./cache/example_app_app_html_0_0_1.meta.json"
     }
@@ -82,7 +82,7 @@
   [
     "example/app#app.css@0.0.1",
     {
-      "ownHash": "1d6a49346908672fcd9ec5ba0d15be82",
+      "ownHash": "392babed5441ad2272a3ecf82078c912",
       "module": "./cache/example_app_app_css_0_0_1.js",
       "moduleMeta": "./cache/example_app_app_css_0_0_1.meta.json"
     }
