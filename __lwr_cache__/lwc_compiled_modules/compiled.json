@@ -74,7 +74,7 @@
   [
     "example/app#app.html@0.0.1",
     {
-      "ownHash": "0918a9efc07422598e0c4a74493caf28",
+      "ownHash": "aeefbb0d6abfbf8a63af3c36affff267",
       "module": "./cache/example_app_app_html_0_0_1.js",
       "moduleMeta": "./cache/example_app_app_html_0_0_1.meta.json"
     }
